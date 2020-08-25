@@ -1,0 +1,94 @@
+.banner{
+    background: url(/img/index/photo-1588159343745-445ae0b16383.png) center;
+    background-size: cover;
+    height: 480px;
+    color: $light;
+    margin-bottom: 60px;
+    @include lg{
+        height: 870px;
+    }
+    .slogan{
+        padding-top: 100px;
+        @include lg{
+            padding-top: 295px;
+        }
+        h2{
+            font-size: 40px;
+        }
+        span{
+            display: block;
+            margin-bottom: 16px;
+        }
+        a {
+            display: block;
+            color: $light;
+            border: 1px $light solid;
+            text-align: center;
+            border-radius: 40px;
+            font-size: 20px;
+            padding: 5px;
+            transition: all 0.4s;
+            &:hover{
+                background: rgba(255,255,255,0.3)
+            }
+        }
+    }
+}
+
+.simple-intro{
+    margin-bottom: 60px;
+    ul{
+        padding: 0;
+        li{
+            margin: 0;
+            div {
+                div {
+                    h4 {
+                        margin-top: 52px;
+                    }
+
+                    span {
+                        display: block;
+                        margin-bottom: 16px;
+                    }
+
+                    a {
+                        display: block;
+                    }
+
+                    .train {
+                        color: $info;
+                        text-align: center;
+                        border: 2px solid $info;
+                        border-radius: 40px;
+                        font-size: 20px;
+                        padding: 10px 0px;
+                        transition: all 0.4s;
+
+                        &:hover {
+                            background: rgba(0, 0, 0, 0.1)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.info{
+    padding: 0;
+    li{
+        margin-bottom: 1rem;
+        span{
+            color: $secondary;
+            text-decoration: line-through;
+        }
+    }
+}
+
+.sold-out{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    color: $light;
+}
