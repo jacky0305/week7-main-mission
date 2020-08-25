@@ -4345,7 +4345,7 @@ img { max-width: 100%; height: auto; }
 
 @media (min-width: 992px) { .header { margin-bottom: 0; } }
 
-.header h1 a { display: block; background-image: url(/img/index/d’Perfume.png); width: 128px; height: 38px; text-indent: 101%; overflow: hidden; white-space: nowrap; }
+.header h1 a { display: block; background-image: url(https://raw.githubusercontent.com/jacky0305/week7-main-mission/master/img/index/d’Perfume.png); width: 128px; height: 38px; text-indent: 101%; overflow: hidden; white-space: nowrap; }
 
 .header ul { margin-bottom: 0px; }
 
@@ -4367,9 +4367,9 @@ img { max-width: 100%; height: auto; }
 
 .nav li a { display: block; line-height: 52px; height: 52px; font-size: 20px; color: #FFFFFF; padding-right: 28px; }
 
-.subscribe { background: url(/img/index/photo-1532413992378-f169ac26fff0mobile.png); background-size: cover; height: 600px; font-size: 16px; margin: 0; }
+.subscribe { background: url(https://raw.githubusercontent.com/jacky0305/week7-main-mission/master/img/index/photo-1532413992378-f169ac26fff0mobile.png); background-size: cover; height: 600px; font-size: 16px; margin: 0; }
 
-@media (min-width: 992px) { .subscribe { background: url(/img/index/photo-1532413992378-f169ac26fff0.png) center; } }
+@media (min-width: 992px) { .subscribe { background: url(https://raw.githubusercontent.com/jacky0305/week7-main-mission/master/img/index/photo-1532413992378-f169ac26fff0.png) center; } }
 
 .subscribe .container h2 { margin-top: 312px; color: #8D8D8D; margin-bottom: 20px; }
 
@@ -4389,7 +4389,7 @@ img { max-width: 100%; height: auto; }
 
 .footer .contact li a { color: #FFFFFF; margin-left: 36px; font-size: 20px; }
 
-.banner { background: url(/img/index/photo-1588159343745-445ae0b16383.png) center; background-size: cover; height: 480px; color: #FFFFFF; margin-bottom: 60px; }
+.banner { background: url(https://raw.githubusercontent.com/jacky0305/week7-main-mission/master/img/index/photo-1588159343745-445ae0b16383.png) center; background-size: cover; height: 480px; color: #FFFFFF; margin-bottom: 60px; }
 
 @media (min-width: 992px) { .banner { height: 870px; } }
 
@@ -4490,6 +4490,8 @@ img { max-width: 100%; height: auto; }
 .user .change input[type="text"], .user .change input[type="checkbox"], .user .change select { border: 1px solid #CED4DA; border-radius: 4px; padding-top: 5px; padding-bottom: 5px; }
 
 .user .change input[type="checkbox"] { width: 18px; height: 18px; }
+
+.user .change .custom-checkbox .custom-control-input:checked ~ { background-color: #916000; }
 
 .user .change input[type="submit"] { background: #916000; color: #FFFFFF; border: none; border-radius: 5px; padding-top: 5px; padding-bottom: 5px; }
 
