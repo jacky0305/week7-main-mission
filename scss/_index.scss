@@ -1,24 +1,30 @@
-.banner{
+.banner {
     background: url(/img/index/photo-1588159343745-445ae0b16383.png) center;
     background-size: cover;
     height: 480px;
     color: $light;
     margin-bottom: 60px;
-    @include lg{
+
+    @include lg {
         height: 870px;
     }
-    .slogan{
+
+    .slogan {
         padding-top: 100px;
-        @include lg{
+
+        @include lg {
             padding-top: 295px;
         }
-        h2{
+
+        h2 {
             font-size: 40px;
         }
-        span{
+
+        span {
             display: block;
             margin-bottom: 16px;
         }
+
         a {
             display: block;
             color: $light;
@@ -28,19 +34,23 @@
             font-size: 20px;
             padding: 5px;
             transition: all 0.4s;
-            &:hover{
-                background: rgba(255,255,255,0.3)
+
+            &:hover {
+                background: rgba(255, 255, 255, 0.3)
             }
         }
     }
 }
 
-.simple-intro{
+.simple-intro {
     margin-bottom: 60px;
-    ul{
+
+    ul {
         padding: 0;
-        li{
+
+        li {
             margin: 0;
+
             div {
                 div {
                     h4 {
@@ -75,18 +85,20 @@
     }
 }
 
-.info{
+.info {
     padding: 0;
-    li{
+
+    li {
         margin-bottom: 1rem;
-        span{
+
+        span {
             color: $secondary;
             text-decoration: line-through;
         }
     }
 }
 
-.sold-out{
+.sold-out {
     position: absolute;
     top: 45%;
     left: 40%;

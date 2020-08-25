@@ -1,13 +1,16 @@
-.user{
-    .menu{
+.user {
+    .menu {
         color: #848484;
-        h2{
+
+        h2 {
             font-size: 1rem;
         }
-        ul{
-            li{
+
+        ul {
+            li {
                 font-size: 1rem;
                 padding-bottom: 1rem;
+
                 a {
                     color: #848484;
                 }
@@ -15,15 +18,18 @@
         }
     }
 
-    .personal{
+    .personal {
         color: $secondary;
-        h2{
+
+        h2 {
             font-size: 1rem;
         }
-        span{
+
+        span {
             font-size: 0.5rem;
         }
     }
+
     .change {
         h2 {
             font-size: 1rem;
@@ -49,7 +55,7 @@
             padding-bottom: 5px;
         }
 
-        input[type="checkbox"]{
+        input[type="checkbox"] {
             width: 18px;
             height: 18px;
         }
@@ -62,7 +68,8 @@
             padding-top: 5px;
             padding-bottom: 5px;
         }
-        .button{
+
+        .button {
             transition: all 0.4s;
 
             &:hover {
@@ -71,4 +78,3 @@
         }
     }
 }
-

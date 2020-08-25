@@ -1,38 +1,41 @@
-.buy{
-    select{
+.buy {
+    select {
         border: 1px solid $primary;
         border-radius: 4px 0px 0px 4px;
     }
-    
-    .button{
+
+    .button {
         border: 1px solid $primary;
         border-radius: 0px 4px 4px 0px;
         transition: all 0.4s;
         background: $primary;
+
         &:hover {
             background: rgb(145, 65, 0)
         }
     }
-    
-    .wishlist{
+
+    .wishlist {
         font-weight: 500;
     }
 }
 
-.modal-content{
+.modal-content {
     text-align: center;
     color: $primary;
     font-weight: bold;
     font-size: 20px;
-    
+
 }
 
-.half-photo{
+.half-photo {
     margin-bottom: 2rem;
-    @include lg{
+
+    @include lg {
         margin-top: -19rem;
     }
-    @include xl{
+
+    @include xl {
         margin-top: -12rem;
     }
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
     </script>
 </head>
+
 <body>
     <div class="container header d-flex justify-content-between align-items-center" data-aos="fade-down">
         <h1><a href="index.html">D’Perfume</a></h1>
@@ -36,7 +38,7 @@
                 </a>
             </li>
             <li>
-                <a href="#" >
+                <a href="#">
                     <img src="img/index/shopping-cart.svg" alt="">
                     <span class="d-none d-lg-inline">Cart(3)</span>
                 </a>
@@ -52,9 +54,9 @@
         <li><a href="#">Wishlist</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">Log in</a></li>
+        <li><a href="login.html">Log in</a></li>
     </ul>
-    
+
     <div class="container-fluid bg-primary d-none d-lg-flex" style="margin-bottom: 80px;">
         <div class="container">
             <ul class="nav " data-aos="fade-right">
@@ -214,7 +216,7 @@
                     </li>
                 </ul>
             </li>
-            
+
         </div>
     </ul>
     <ul class="page d-flex justify-content-center" data-aos="fade-up">
@@ -225,20 +227,21 @@
     <!--客製化結束-->
     <div class="container-fluid subscribe">
         <div class="row">
-            <div class="container col-9 offset-3 col-lg-5 col-xl-4 offset-lg-1" data-aos="fade-right">
+            <div class="container col-10 justify-content-center col-lg-5 col-xl-4 offset-lg-1" data-aos="fade-right">
                 <h2>
                     記得<br>訂閱以獲取更多資訊！
                 </h2>
-                <form action="#">
-                    <input type="text" placeholder="Your email address">
-                    <input type="submit" value="Subscribe">
+                <form action="#" class="row mx-0">
+                    <input type="text" placeholder="Your email address" class="col-8">
+                    <input type="submit" value="Subscribe" class="col-4">
                 </form>
             </div>
         </div>
     </div>
 
     <div class="container-fluid bg-primary">
-        <div class="container footer d-flex justify-content-center justify-content-lg-between align-items-center" data-aos="fade-right">
+        <div class="container footer d-flex justify-content-center justify-content-lg-between align-items-center"
+            data-aos="fade-right">
             <div class="logo">
                 <a href="index.html"><img src="/img/product/d’Perfumew.png" alt=""></a>
                 <span>© 2020. All Rights Reserved.</span>
@@ -253,24 +256,25 @@
 </body>
 <script>
     AOS.init({
-  // Global settings:
-  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-  initClassName: 'aos-init', // class applied after initialization
-  animatedClassName: 'aos-animate', // class applied on animation
-  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-  
-  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 70, // offset (in px) from the original trigger point
-  delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 1000, // values from 0 to 3000, with step 50ms
-  easing: 'ease', // default easing for AOS animations
-  once: false, // whether animation should happen only once - while scrolling down
-  mirror: false, // whether elements should animate out while scrolling past them
-  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-});
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 70, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+    });
 </script>
+
 </html>

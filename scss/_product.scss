@@ -1,12 +1,16 @@
-.product-list{
+.product-list {
     margin-top: 60px;
-    .row{
+
+    .row {
         li {
             margin-bottom: 60px;
+
             ul {
                 padding: 0;
+
                 li {
                     margin-bottom: 0;
+
                     span {
                         color: $secondary;
                         text-decoration: line-through;
@@ -17,17 +21,19 @@
     }
 }
 
-.page{
-    li{
-        a{
+.page {
+    li {
+        a {
             display: block;
             padding: 0px 10px;
             color: $info;
+
             &:hover {
                 text-decoration: underline;
                 color: $primary;
             }
         }
     }
+
     margin-bottom: 60px;
 }
