@@ -4473,9 +4473,13 @@ img { max-width: 100%; height: auto; }
 
 .user .menu h2 { font-size: 1rem; }
 
-.user .menu ul li { font-size: 1rem; padding-bottom: 1rem; }
+.user .menu ul .now { border-bottom: 2px solid #916000; width: 6rem; margin-bottom: 1rem; }
 
-.user .menu ul li a { color: #848484; }
+.user .menu ul li { font-size: 1rem; }
+
+.user .menu ul li a { margin-bottom: 1rem; display: inline-block; color: #848484; transition: width 0.4s; }
+
+.user .menu ul li a:hover { border-bottom: 2px solid #916000; width: 6rem; margin-bottom: 0.9rem; }
 
 .user .personal { color: #8D8D8D; }
 

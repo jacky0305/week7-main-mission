@@ -7,12 +7,24 @@
         }
 
         ul {
+            
+            .now{
+                border-bottom: 2px solid $primary;
+                width: 6rem;
+                margin-bottom: 1rem;
+            }
             li {
                 font-size: 1rem;
-                padding-bottom: 1rem;
-
                 a {
+                    margin-bottom: 1rem;
+                    display: inline-block;
                     color: #848484;
+                    transition: width 0.4s;
+                    &:hover{
+                        border-bottom: 2px solid $primary;
+                        width: 6rem;
+                        margin-bottom: 0.9rem;
+                    }
                 }
             }
         }
